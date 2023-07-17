@@ -30,8 +30,8 @@ Your task is to create a personal blog and podcast site where users can browse a
 
 ## Resources
 
-- [Next.js](https://nextjs.org/) - Official Next.js documentation.
-- [React](https://reactjs.org/) - Official React documentation.
+- [Next.js](https://nextjs.org/docs) - Official Next.js documentation.
+- [React](https://react.dev/) - Official React documentation.
 - CSS-in-JS libraries like [styled-components](https://styled-components.com/) or [Emotion](https://emotion.sh/) if you choose to use them.
 - [Tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework.
 - [Bootstrap](https://getbootstrap.com/) - A CSS framework.
@@ -64,6 +64,33 @@ npm run server
 ```
 
 Open [http://localhost:4000](http://localhost:4000) with your browser to see the result and the data.
+
+## Instructions
+
+To get this running using Next.js, you can run the following commands:
+
+```bash
+# This will create the project in a directory called personal-blog
+npx create-next-app@latest personal-blog
+# After you create the project you cd into it
+cd personal-blog
+# This will start the development server
+npm run dev
+```
+
+To get this running using React:
+
+```bash
+# This will create the project in a directory called personal-blog
+npm create vite@latest personal-blog -- --template react
+# After you create the project you cd into it
+cd personal-blog
+# This will install the dependencies
+npm install
+# This will start the development server
+npm run dev
+
+```
 
 ## Grading Criteria
 
